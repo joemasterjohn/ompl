@@ -40,6 +40,7 @@
 #include "ompl/base/ScopedState.h"
 #include "ompl/base/spaces/SE2StateSpace.h"
 #include "ompl/base/spaces/SE3StateSpace.h"
+#include "ompl/base/spaces/R3SO2StateSpace.h"
 #include "ompl/base/spaces/DiscreteStateSpace.h"
 #include "ompl/base/spaces/TimeStateSpace.h"
 #include "ompl/base/spaces/DubinsStateSpace.h"
@@ -78,6 +79,7 @@ namespace ompl
         DeclareStateType(SO3);
         DeclareStateType(SE2);
         DeclareStateType(SE3);
+	DeclareStateType(R3SO2);
         DeclareStateType(Discrete);
         DeclareStateType(Time);
         DeclareStateType(Dubins);
